@@ -26,5 +26,10 @@ static int nums_check(){
             }
         }
 
-
+static int triangular_number_math(){
+    int nums = nums_check();
+    int result = (int) (0.5*nums*(nums+1));
+    return result;
+    }
 }
+
