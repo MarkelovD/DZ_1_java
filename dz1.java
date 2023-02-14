@@ -4,7 +4,7 @@
 import java.util.Scanner;
 public class dz1 { 
 public static void main(String[] args) {
-
+    System.out.println("результат вычисления вычисления n-ого треугольного числа: " + triangular_number_math()); 
 }
 
 static int nums_check(){
